@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <Profile fullName={fullName} bio={bio} profession={profession} handleName={handleName}>
-        <img style={{marginTop:"3%", width:"26%", borderRadius:"50%"}} src={ProfilePhoto} alt='My Profile'/>
+        <img style={{marginTop:"3%", width:"26%", borderRadius:"50%"}} src={ProfilePhoto} alt='My pic Profile'/>
       </Profile>
     </div>
   );
